@@ -23,8 +23,6 @@ The application will prompt the user for information about the team manager and 
 
 * The dependencies are, [jest](https://jestjs.io/) for running the provided tests, and [inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user.
 
-* if you like, you can run the tests at any time with `npm run test`
-
 
 ### User input
 
