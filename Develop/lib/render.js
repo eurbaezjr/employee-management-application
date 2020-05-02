@@ -58,3 +58,5 @@ const renderMain = html => {
     return replacePlaceHolder(temp, "team", html)
 
 }
+
+module.exports = render;
