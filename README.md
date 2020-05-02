@@ -1,4 +1,4 @@
-# Emploee Management Application
+# Employee Management Application
 
 ![Example 1](./Media/demo.gif) 
 
