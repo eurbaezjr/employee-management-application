@@ -1,11 +1,16 @@
-<div class="container border border-dark border-1 w-25 shadow-lg"> 
+<div class="col-3 container-fluid p-0 border border-dark border-1 shadow-lg h-75"> 
 
-        <h1 class="row justify-content-center bg-primary mb-0 text-white">{{name}}</h1>
-        <h2 class="row justify-content-center bg-primary mt-0 mb-0 text-white"><i class="fas fa-graduation-cap"></i> &nbsp;{{role}}</h2>
- 
-    <ul class="row list-group mt-0">
-        <li class="list-group-item text-dark" id="employeeId">ID:{{id}}</li>
-        <li class="list-group-item text-dark" id="employeeEmail">Email:{{email}}</li>
-        <li class="list-group-item text-dark" id="school">School:{{school}}</li>
-    </ul>
-</div>  
+    <h1 class="row justify-content-center bg-primary m-0 text-white">{{name}}</h1>
+    <h2 class="row justify-content-center bg-primary m-0 text-white">
+    <i class="fas fa-graduation-cap"></i>
+    </i> &nbsp; {{role}}</h2>
+
+<ul class="list-group">
+    <li class="list-group-item text-dark" id="employeeId">
+        <div class="font-weight-bold">ID:</div>{{id}}</li>
+    <li class="list-group-item text-dark" id="employeeEmail">
+        <div class="font-weight-bold">Email:</div>{{email}}</li>
+    <li class="list-group-item text-dark" id="school">
+        <div class="font-weight-bold">School:</div>{{school}}</li>
+</ul>
+</div>
