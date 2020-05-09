@@ -1,6 +1,6 @@
 # Employee Management Application
 
-![Example 1](./demo.gif) 
+![Example 1](./app-demo.gif) 
 
 A Node CLI application that takes information about employees and generates an HTML webpage that displays summaries for each person. The application's core focus is to keep track of a software engineering team. 
 
