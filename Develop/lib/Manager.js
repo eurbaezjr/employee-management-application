@@ -1,3 +1,4 @@
+// Manager constructor class uses the reusable employee module to maintain the dry principle
 const Employee = require("./Employee.js")
 class Manager extends Employee{
     constructor(name, id, email, officeNumber){

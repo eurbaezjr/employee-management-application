@@ -3,6 +3,7 @@ const fs = require("fs");
 
 const templateDir = path.resolve(__dirname, "../templates");
 
+// map and render all employees
 const render = employees => {
     const html = [];
     html.push(employees
@@ -20,6 +21,7 @@ const render = employees => {
     return renderMain(html.join(""));
 };
 
+// reads and replace handlebar placeholders with the information inputted by user for all employees
 const renderManager = manager => {
     let temp = fs.readFileSync(path.resolve(templateDir, "manager.html"), "utf8")
     temp = replacePlaceHolder(temp, "name", manager.getName());
@@ -29,6 +31,7 @@ const renderManager = manager => {
     temp = replacePlaceHolder(temp, "officeNumber", manager.getOfficeNumber());
     return temp;
 }
+
 const renderEngineer = engineer => {
     let temp = fs.readFileSync(path.resolve(templateDir, "engineer.html"), "utf8")
     temp = replacePlaceHolder(temp, "name", engineer.getName());

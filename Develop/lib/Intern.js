@@ -1,3 +1,4 @@
+// Intern constructor class uses the reusable employee module to maintain the dry principle
 const Employee = require("./Employee.js")
 class Intern extends Employee{
     constructor(name, id, email, school){
