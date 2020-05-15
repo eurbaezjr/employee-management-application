@@ -2,7 +2,7 @@
 
 ![Example 1](./app-demo.gif) 
 
-A Node CLI application that takes information about employees and generates an HTML webpage that displays summaries for each person. The application's core focus is to keep track of a software engineering team. 
+A Node CLI application that takes information about employees and generates an HTML webpage with custom CSS displaying summaries for each person. The application's core focus is to keep track of a software engineering team.
 
 ## Functionality
 
